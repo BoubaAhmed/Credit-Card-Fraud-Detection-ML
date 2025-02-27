@@ -15,6 +15,7 @@ from components.dashboard import dashboard
 from components.machine_learning import machine_Learning
 from components.conclusion import conclusion
 from sklearn.utils import shuffle
+# from tensorflow import ts
 
 
 alt.themes.enable("dark")
@@ -53,7 +54,7 @@ with st.sidebar:
     st.markdown("A Streamlit dashboard highlighting the results of training classification models using the Credit Card dataset from Kaggle.")
     st.markdown("📊 [Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)")
     st.markdown("📗 [Google Colab Notebook](https://colab.research.google.com/drive/1GK47GWhSWRis5C-mX2Ck66K0rEsuNgqV?usp=sharing)")
-    st.markdown("🐙 [GitHub Repository](https://github.com/BoubaAhmed/Credit-Card-Fraud-Detection-Streamlit)")
+    st.markdown("🐙 [GitHub Repository](https://github.com/BoubaAhmed/Credit-Card-Fraud-Detection-ML)")
     st.markdown("by: [`Bouba Ahmed`]")
 
 # Render pages based on session state
